@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUP(View view){
         ++mCount;
-        if(mShowCount i= null)
+        if(mShowCount != null)
             mShowCount.setText(Integer.toString(mCount));
     }
 }
